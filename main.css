@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(255, 151, 104);
+    background: linear-gradient(300deg, rgba(255, 151, 104, 1) 0%, rgba(145, 86, 225, 1) 100%);
+}
+
+#calculator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 368px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+#header {
+    width: 368px;
+    height: 140px;
+    background-color: #212121;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#calculation {
+    margin-right: 27px;
+    padding-top: 38px;
+    font-size: 18px;
+    font-family: "Lato";
+    color: rgb(217, 129, 146);
+    text-align: right;
+    line-height: 18px;
+}
+
+#result {
+    margin-right: 29px;
+    font-size: 50px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+    text-align: right;
+}
+
+.function {
+    width: 92px;
+    height: 92px;
+    font-size: 22px;
+    font-family: "Lato";
+    color: rgb(33, 33, 33);
+    line-height: 92px;
+    text-align: center;
+    float: left;
+    font-weight: 300;
+}
+
+.division {
+    background-color: #9156e1;
+    font-size: 18px;
+}
+
+.multiply {
+    background-color: #8d52dd;
+    font-size: 22px;
+}
+
+.minus {
+    background-color: #894ed9;
+    font-size: 35px;
+}
+
+.plus {
+    background-color: #8547d9;
+    font-size: 27px;
+}
+
+.clear{
+    font-size: 21px;
+}
+
+.point{
+    font-size: 40px;
+    line-height: 1.75;
+}
+
+.equalSign {
+    font-size: 35px;
+    font-family: "Lato";
+    width: 184px;
+    color: rgb(255, 255, 255);
+    background-color: #e62f89;
+    border-radius: 0 0 5px 0;
+}
+
+.division,
+.multiply,
+.minus,
+.plus,
+.equalSign {
+    color: white;
+}
+
+.num0 {
+    border-radius: 0 0 0 5px;
+}
+
+.number,
+.point {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(110deg, rgba(255, 255, 255, 1) 0%, rgba(244, 244, 244, 1) 100%);
+}
+
+.percent,
+.plusMinus,
+.clear {
+    background: rgb(247, 247, 247);
+    background: linear-gradient(90deg, rgba(247, 247, 247, 1) 0%, rgba(241, 241, 241, 1) 100%);
+}
+
+
+.number:hover,
+.point:hover {
+    cursor: pointer;
+    background: rgb(231,231,231);
+background: linear-gradient(110deg, rgba(231,231,231,1) 0%, rgba(210,210,210,1) 100%);
+}
+.percent:hover,
+.plusMinus:hover,
+.clear:hover {
+    cursor: pointer;
+    background: rgb(218,218,218);
+background: linear-gradient(90deg, rgba(218,218,218,1) 0%, rgba(201,201,201,1) 100%);
+}
+
+.division:hover,
+.multiply:hover,
+.minus:hover,
+.plus:hover{
+    cursor: pointer;
+    background: #7332cc;
+}
+
+.equalSign:hover{
+    cursor: pointer;
+    background:#b3256c;
+}
+
+  
